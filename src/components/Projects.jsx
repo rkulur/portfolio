@@ -38,7 +38,7 @@ export default (Projects) => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <a href={project.link}>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <h6 className="mb-2 font-semibold cursor-pointer underline-offset-4 hover:underline hover:text-neutral-400">
                   {project.title}
                 </h6>
@@ -59,4 +59,3 @@ export default (Projects) => {
     </div>
   );
 };
-

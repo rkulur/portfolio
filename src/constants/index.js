@@ -4,11 +4,38 @@ import mdToHTML from "../assets/asset/mdToHTML.png";
 
 export const PROJECTS = [
   {
-    title: "Analog Clock",
-    image: analogClock,
-    description: "An analog clock created using HTML, CSS and JavaScript",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://rkulur-analog-clock.vercel.app/",
+    title: "Markdown to HTML converter",
+    image: mdToHTML,
+    description:
+      "An application that converts Markdown input into its corresponding HTML output.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "TailwindCSS",
+      "TypeScript",
+      "Node.js",
+      "Express",
+    ],
+    link: "https://rrtools.vercel.app/tools/markdowntohtmlconverter",
+  },
+  {
+    title: "RR Spares",
+    image: ems,
+    description:
+      "An end-to-end spare parts e-commerce platform with user and admin interfaces",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "TS",
+      "Node.js",
+      "Express",
+      "Firebase",
+      "Multer",
+      "MongoDB Atlas",
+    ],
+    link: "https://github.com/rkulur/rrpsares",
   },
   {
     title: "Employee Management System",
@@ -27,20 +54,10 @@ export const PROJECTS = [
     link: "https://rkulur-ems.vercel.app/",
   },
   {
-    title: "Markdown to HTML converter",
-    image: mdToHTML,
-    description:
-      "An application that converts Markdown input into its corresponding HTML output.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "React",
-      "TailwindCSS",
-      "TypeScript",
-      "Node.js",
-      "Express",
-    ],
-    link: "https://rrtools.vercel.app/tools/markdowntohtmlconverter",
+    title: "Analog Clock",
+    image: analogClock,
+    description: "An analog clock created using HTML, CSS and JavaScript",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://rkulur-analog-clock.vercel.app/",
   },
 ];
-

@@ -1,5 +1,5 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiNeovim } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
@@ -158,6 +158,18 @@ export default () => {
             title="MySQL"
           >
             <TbBrandMysql className="text-7xl text-blue-400" />
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            onHoverStart={(e) => {}}
+            onHoverEnd={(e) => {}}
+            variants={iconVariants(4)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+            title="NeoVim"
+          >
+            <SiNeovim className="text-7xl text-green-600" />
           </motion.div>
         </motion.div>
       </motion.h2>

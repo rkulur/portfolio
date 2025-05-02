@@ -21,15 +21,14 @@ export default (Contact) => {
         <div className="flex items-center space-x-3 justify-center">
           <MdEmail className="my-1" />
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=rashwithkulur07@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=rashwithkulurr@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            rashwithkulur07@gmail.com
+            rashwithkulurr@gmail.com
           </a>
         </div>
       </motion.div>
     </div>
   );
 };
-

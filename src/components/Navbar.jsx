@@ -1,7 +1,7 @@
 import logo from "../assets/asset/dp.png";
 import { FaLinkedin } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
-import { FaInstagram } from "react-icons/fa";
+// import { SiLeetcode } from "react-icons/si";
+// import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -44,11 +44,11 @@ export default function Navbar() {
             onHoverStart={(e) => {}}
             onHoverEnd={(e) => {}}
           >
-            <button>
-              <a href="https://leetcode.com/rkulur07" target="_blank">
-                <SiLeetcode />
-              </a>
-            </button>
+            {/* <button> */}
+            {/*   <a href="https://leetcode.com/rkulur07" target="_blank"> */}
+            {/*     <SiLeetcode /> */}
+            {/*   </a> */}
+            {/* </button> */}
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.5, transition: { duration: 0.4 } }}
@@ -64,11 +64,11 @@ export default function Navbar() {
           <motion.div
             whileHover={{ scale: 1.5, transition: { duration: 0.4 } }}
           >
-            <button>
-              <a href="https://www.instagram.com/rashwithkulur" target="_blank">
-                <FaInstagram />
-              </a>
-            </button>
+            {/* <button> */}
+            {/*   <a href="https://www.instagram.com/rashwithkulur" target="_blank"> */}
+            {/*     <FaInstagram /> */}
+            {/*   </a> */}
+            {/* </button> */}
           </motion.div>
         </motion.div>
       </nav>

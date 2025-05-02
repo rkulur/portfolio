@@ -1,6 +1,7 @@
 import analogClock from "../assets/asset/analog-clock-project.png";
 import ems from "../assets/asset/ems-project.png";
 import mdToHTML from "../assets/asset/mdToHTML.png";
+import rrspares from "../assets/rrspares.png";
 
 export const PROJECTS = [
   {
@@ -21,7 +22,7 @@ export const PROJECTS = [
   },
   {
     title: "RR Spares",
-    image: ems,
+    image: rrspares,
     description:
       "An end-to-end spare parts e-commerce platform with user and admin interfaces",
     technologies: [
@@ -35,7 +36,7 @@ export const PROJECTS = [
       "Multer",
       "MongoDB Atlas",
     ],
-    link: "https://github.com/rkulur/rrpsares",
+    link: "https://github.com/rkulur/RRSpares",
   },
   {
     title: "Employee Management System",
